@@ -1,42 +1,31 @@
 # react-remita
 
----
-- [Overview](#Overview)
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
+This is a react library for integrating the Remita payment gateway
 
----
-## Overview
-
-This is a react library for integrating the Remita payment gateway. This React library provides a wrapper to add Remita Payment Checkout to your React application.
-
+## Demo
 ![img](Remita_checkout.PNG "Sample Checkout Image")
+## Get Started
+
+This React library provides a wrapper to add Remita Payment Checkout to your React application
+
+### Install
+
+npm install react-remita --save
 
 
----
+or with `yarn`
 
-## Installation
-1. Open your command line and navigate to the installation directory of your Magento 2 store.
+sh
+yarn add react-remita
 
-2. Run the following commands:
 
-```npm install react-remita --save```
+### Usage
 
-With Yarn, run:
-
-```sh yarn add react-remita```
-
-The library is now installed and ready for use.
-
----
-## Usage
-
-This library can be integrated into any react application by using a button provided by the library.
+This library can be integrated into any react application by using a button provided by the library
 
 ### Using the Remita button
 
-#### Sample javascript
+sample javascript
 ````
 import "./App.css";
 import RemitaPayment from "react-remita";
@@ -122,7 +111,7 @@ export default App;
 
 ````
 
-#### Sample Css Styling
+Sample Css Styling
 ```
 body {
   margin: 0;
@@ -175,15 +164,10 @@ input {
 ```
 You can obtain your public key by signing up on [Remita](https://remita.net) as an integrator.
 
-### Deployment
-Remember to change the key when deploying on a live/production system and also include the live prop when switching to production.
+## Deployment
 
-### Useful links
-* Join our Slack Developer/Support channel on [Slack.](http://bit.ly/RemitaDevSlack)
-    
-### Support
-- For all other support needs, support@remita.net
----
+REMEMBER TO CHANGE THE KEY WHEN DEPLOYING ON A LIVE/PRODUCTION SYSTEM AND ALSO INCLUDE THE live PROP WHEN SWITCHING TO PRODUCTION
+
 ## Contributing
 
 1. Fork it!
@@ -192,10 +176,8 @@ Remember to change the key when deploying on a live/production system and also i
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-Thanks!
-
----
+Thanks!.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
