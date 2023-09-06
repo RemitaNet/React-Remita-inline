@@ -32,7 +32,7 @@ The library is now installed and ready for use.
 ---
 ## Usage
 
-This library can be integrated into any react application by using a button provided by the library
+This library can be integrated into any react application by using a button provided by the library.
 
 ### Using the Remita button
 
@@ -179,7 +179,7 @@ You can obtain your public key by signing up on [Remita](https://remita.net) as 
 Remember to change the key when deploying on a live/production system and also include the live prop when switching to production.
 
 ### Useful links
-* Join our Slack Developer/Support channel on [slack](http://bit.ly/RemitaDevSlack)
+* Join our Slack Developer/Support channel on [Slack.](http://bit.ly/RemitaDevSlack)
     
 ### Support
 - For all other support needs, support@remita.net
@@ -193,3 +193,9 @@ Remember to change the key when deploying on a live/production system and also i
 5. Submit a pull request
 
 Thanks!
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
