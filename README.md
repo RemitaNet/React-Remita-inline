@@ -192,4 +192,4 @@ Remember to change the key when deploying on a live/production system and also i
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-Thanks!.
+Thanks!
